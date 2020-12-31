@@ -1,0 +1,101 @@
+.header {
+    text-emphasis-position: above;
+    color:#FFFFFF;
+    background-color: #4d4a4a;
+    height: 200px;
+    border: solid;
+    font-family: 'Embassy BT';
+    font-size: 30px;
+}
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#f7ad92 ;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7ad92;
+    align-items: stretch;
+    justify-content: space-evenly;
+    opacity: 1
+}
+.item {
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+    background-color: #f58962;
+    font-size: 15px;
+    font-family: 'Adobe Hebrew';
+    margin: 50px;
+    border-radius: 20px;
+}
+body{
+    margin:0px;
+}
+.item img {
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: solid;
+    opacity:1;
+}
+.item2 img {
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: solid;
+    opacity: 1;
+}
+.item2 {
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+    background-color: #f58962;
+    font-size: 15px;
+    font-family: 'Adobe Hebrew';
+    margin: 50px;
+    border-radius: 20px;
+}
+.both{
+    display:flex;
+    flex-wrap: wrap; 
+}
+.item:hover img{
+    opacity:0.2;
+}
+.item {
+    position: relative;
+}
+
+.item h4 {
+        position: absolute;
+        right: 50%;
+        transform: translate(-120%);
+        opacity: 0;
+}
+.item:hover h4{
+    opacity:1;
+    color: #FFFFFF;
+}
+.item2:hover img {
+        opacity: 0.2;
+    }
+
+.item2{
+    position: relative;
+}
+
+.item2 h4 {
+        position: absolute;
+        right: 50%;
+        transform: translate(-120%);
+        opacity: 0;
+}
+
+.item2:hover h4 {
+        opacity: 1;
+        color: #FFFFFF;
+}
